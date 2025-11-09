@@ -1,5 +1,5 @@
 {
-  "name": "Kuerzl ",
+  "name": "Kuerzl",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,9 +14,11 @@
     "@tanstack/react-router": "^1.132.0",
     "@tanstack/react-router-devtools": "^1.132.0",
     "@tanstack/router-plugin": "^1.132.0",
+    "arkregex": "^0.0.2",
     "lucide-react": "^0.545.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-haiku": "^2.4.1",
     "serve": "^14.2.5",
     "tailwindcss": "^4.0.6"
   },
