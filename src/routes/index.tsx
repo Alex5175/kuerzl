@@ -32,6 +32,7 @@ function App() {
     const newUrl = `${apiUrl}/shorten`;
     const res = await fetch(newUrl, {
       method: "POST",
+
       headers: {
         "Content-Type": "application/json",
       },
@@ -101,6 +102,10 @@ function App() {
           )}
         </div>
       )}
+      <p className=" md:absolute bottom-4  right-4 text-xl">
+        © Alexander Zeitlhofer{" "}
+        <a href="https://alex-zeitlhofer.com/impressum">Imprint</a>
+      </p>
     </div>
   );
 }
